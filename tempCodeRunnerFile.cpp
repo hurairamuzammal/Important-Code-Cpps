@@ -1,0 +1,4 @@
+
+	cout << Student::noOfStudents
+
+		 << endl;

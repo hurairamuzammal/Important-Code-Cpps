@@ -3,10 +3,10 @@ using namespace std;
 //created a basic structure
 struct Student
 {
-    //data members
- int roll;
- string name;
- float marks;
+    // data members
+    int roll;
+    string name;
+    float marks;
 };
 int main()
 {

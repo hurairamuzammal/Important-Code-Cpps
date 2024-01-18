@@ -18,7 +18,9 @@ So the result of this function will be a string that will be converted in Postfi
 While converting infix to postfix if the precedence of top element is >= to new element then pop the element and append in out output stream but if the precedence is lower than simply push the new operand on to the top of the stack.
 
 
-# Conclusing Statement
+# Conclusion
 In this way Conversion Code works.
+
+
 
 ## Thank You

@@ -14,6 +14,10 @@ This Code uses Stack for conversion and Evaluation of the answer.
 6. This Process will repeat until the outer for loop that will execute to the length of input will break. At this stage stack may contain some of the operators So simply add them to the string and pop them until stack is empty.
 
 So the result of this function will be a string that will be converted in Postfix.
+7. Similiarly we have the function that convert Infix to Prefix.
+### Infix to PreFix
+8. The only difference lies in the process where the precednece of the operator in the stack is checked with new operator in this case opertor is only poped if the precedence of the stack opertor is higher than new operator (not new operator  equal to the stack top is checked ).  s
+In this way conversion part of the code is working
 ### Rule for converting Infix to Postfix:
 While converting infix to postfix if the precedence of top element is >= to new element then pop the element and append in out output stream but if the precedence is lower than simply push the new operand on to the top of the stack.
 

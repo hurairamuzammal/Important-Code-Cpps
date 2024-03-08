@@ -4,6 +4,8 @@ add comments and Readme files for explanation.
 Currently this Repositery has following Codes :    
 1. Infix to Postfix and Prefix Conversion and their evaluation using C++.  
 2. Solving Tower of hanoi with Recursion in C++.  
+3. All the sorting alogrithms coded in C++.
+4. Exception handling using throw and catch.
 
 
 

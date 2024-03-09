@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-
+// Kadane's Algorithm
 int max_sum_subarray(int arr[], int n, int& start, int& end)
 {
     int ans = arr[0], sum = arr[0];
@@ -11,6 +11,7 @@ int max_sum_subarray(int arr[], int n, int& start, int& end)
 
     for(int i = 1; i < n; i++)
     {
+        // If the sum is greater than the current element, then add the current element to the sum
         if(sum + arr[i] > arr[i])
         {
             sum += arr[i];

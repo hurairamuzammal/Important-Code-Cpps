@@ -220,6 +220,7 @@ public:
         return (ch == "+" || ch == "-" || ch == "*" || ch == "/" || ch == "%");
     }
 
+//this function will perform operation on the base of operator and return result
     int performOperation(char op, int operand1, int operand2)
     {
         int result;
@@ -249,6 +250,11 @@ public:
         }
         return result;
     }
+    
+/*this function will evaluate the postfix expression by using stack
+some working it will perform is 
+1. if it is operand then inner loop will concatinate it and push in stack
+2. pop operand and push result*/
 
     string evaluatePostexpression(string ch)
     {
@@ -290,6 +296,7 @@ public:
         string finalResult = pop();
         return finalResult;
     }
+// this function will evaluate the prefix expression by using stack
     string evaluatePreexpression(string ch)
     {
         string temp;

@@ -41,10 +41,13 @@ int main()
     arr[1] = -2;
     arr[2] = 14;
     arr[3] = -7;
-    arr[4] = 4;
-    arr[5] = -3;
-    arr[6] = 5;
-    arr[7] = 0;
+    arr[4] = -1;
+    arr[5] = -5;
+    arr[6] = -2344;
+    arr[7] = -3;
+    arr[7] = -1;
+ 
+
 
     int start, end;
     int maxSum = max_sum_subarray(arr, n, start, end);

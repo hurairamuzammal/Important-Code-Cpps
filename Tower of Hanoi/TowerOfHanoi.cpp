@@ -14,16 +14,14 @@ void toh(int n, char from, char to, char aux) {
 int main() {
   int n;
   cin >> n;
-
   char from, to, aux;
   cout << "From: ";
   cin >> from;
   cout << "To: ";
   cin >> to;
   cout << "Aux: ";
-  
   cin >> aux;
-
+//inpiut the number of disks and the towers
 
   while (n > 0) {
     toh(n, from, to, aux);

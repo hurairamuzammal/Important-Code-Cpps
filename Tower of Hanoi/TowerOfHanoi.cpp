@@ -1,7 +1,6 @@
 #include <iostream>
-
 using namespace std;
-
+//simple recursion
 void toh(int n, char from, char to, char aux) {
   if (n == 1) {
     cout << "MOVE DISK FROM TOWER " << from << " TO TOWER " << to << endl;

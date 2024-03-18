@@ -12,8 +12,6 @@ void toh(int n, char from, char to, char aux) {
   cout << "MOVE DISK FROM TOWER " << from << " TO TOWER " << to << endl;
   toh(n - 1, aux, to, from);
 }
-//hehe
-
 int main() {
   int n;
   cin >> n;

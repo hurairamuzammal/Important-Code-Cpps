@@ -6,7 +6,7 @@ Currently this Repositery has following Codes :
 2. Solving Tower of hanoi with Recursion in C++.  
 3. All the sorting alogrithms coded in C++.
 4. Exception handling using throw and catch.
-
+5. Maximium sum subarray with time complexity of O(n,nlogn and n^2)
 
 
 # About Me

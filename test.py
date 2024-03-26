@@ -23,7 +23,7 @@ def check_win(board):
         return True
 
     return False        
-
+# function that will keep the game running
 def tictactoe():
     board = [[' ' for _ in range(3)] for _ in range(3)]
     player = 'X'

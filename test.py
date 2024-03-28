@@ -1,7 +1,7 @@
 def print_board(board):
     for row in board:
         print(" ".join(row))
-
+# gpt hehe
 def check_win(board):
     # check horizontal spaces
     for row in board:

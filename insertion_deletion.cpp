@@ -5,12 +5,14 @@
 #include<unordered_map>
 #include<unordered_set>
 
+using namespace std;
 
 class RandomizedCollection {
 private:
-    std::vector<int> nums;
-    std::unordered_map<int, std::unordered_set<int>> m;
+    vector<int> nums;
+    unordered_map<int, unordered_set<int>> m;
 
+    
 public:
     RandomizedCollection() {
         // Constructor initializes the data structures.
@@ -58,6 +60,14 @@ public:
         int randomIndex = rand() % nums.size();
         return nums[randomIndex];
     }
+    void display()
+    {
+        for(int i=0; i<nums.size(); i++)
+        {
+            cout << nums[i] << " ";
+        }
+        cout << endl;
+    }
 };
 
 /**
@@ -74,14 +84,18 @@ int main()
     RandomizedCollection* obj = new RandomizedCollection();
     bool param_1 = obj->insert(1);
     bool param_2 = obj->insert(2);
-    bool param_3 = obj->insert(3);
     bool param_4 = obj->insert(4);
     bool param_5 = obj->insert(5);
+    bool param_12 = obj->insert(1);
+    bool param_13 = obj->insert(2);
+    bool param_3 = obj->insert(3);
+    obj->display();
     bool param_6 = obj->remove(3);
     bool param_7 = obj->remove(4);
     bool param_8 = obj->remove(5);
     bool param_9 = obj->remove(2);
     bool param_10 = obj->remove(1);
+    obj->display();
     int param_11 = obj->getRandom();
     return 0;
 }

@@ -3,6 +3,7 @@
         "system_error": "cpp",
         "xlocale": "cpp",
         "xstring": "cpp",
-        "format": "cpp"
+        "format": "cpp",
+        "vector": "cpp"
     }
 }

@@ -26,7 +26,9 @@ void integerToRoman(int num)
 }
 int main()
 { 
-    int num = 3549;
+    int num = 0;
+    cout<<"Enter the number: \n";
+    cin>>num;
     integerToRoman(num);
     return 0; 
 }

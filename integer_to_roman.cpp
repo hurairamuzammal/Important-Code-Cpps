@@ -17,6 +17,7 @@ void integerToRoman(int num)
                    "LX", "LXX", "LXXX", "XC"};
     string i[] = {"", "I", "II", "III", "IV", "V",
                    "VI", "VII", "VIII", "IX"};
+    // to get number of thousands, hundreds, tens and ones we will divide this number by 1000, 100, 10 and 1 respectively.
     string thousands = m[num / 1000];
     string hundereds = c[(num % 1000) / 100];
     string tens = x[(num % 100) / 10];
@@ -24,10 +25,11 @@ void integerToRoman(int num)
     string ans = thousands + hundereds + tens + ones;
     cout << ans << endl;
 }
+
 int main()
 { 
     int num = 0;
-    cout<<"Enter the number: \n";
+    cout<<"Enter the number: ";
     cin>>num;
     integerToRoman(num);
     return 0; 
